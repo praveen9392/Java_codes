@@ -21,3 +21,10 @@ public class except
         }
     }
 }
+class incorrect extends RuntimeException
+{
+   incorrect(String st) 
+   {
+      super();
+    }
+}
